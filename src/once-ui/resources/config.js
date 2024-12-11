@@ -1,30 +1,30 @@
-const baseURL = 'demo.once-ui.com'
+const baseURL = 'someBaseUrl.com'
 
 // default customization applied to the HTML in the main layout.tsx
 const style = {
     theme:       'dark',        // dark | light
-    neutral:     'gray',        // sand | gray | slate
-    brand:       'cyan',        // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan
-    accent:      'indigo',      // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan
-    solid:       'contrast',    // color | contrast
-    solidStyle:  'flat',        // flat | plastic
-    border:      'playful',     // rounded | playful | conservative
-    surface:     'translucent', // filled | translucent
+    neutral:     'custom',        // sand | gray | slate
+    brand:       'custom',        // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan
+    accent:      'custom',      // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan
+    solid:       'color',    // color | contrast
+    solidStyle:  'plastic',        // flat | plastic
+    border:      'conservative',     // rounded | playful | conservative
+    surface:     'filled', // filled | translucent
     transition:  'all',         // all | micro | macro
     scaling:     '100',         // 90 | 95 | 100 | 105 | 110
 }
 
 // default metadata
 const meta = {
-    title: 'Once UI - Your Personalized Design System for Next.js',
-    description: 'An open-source design system and component library for Next.js that emphasizes easy styling and accessibility in UI development.'
+    title: 'Ivan Volos\'s Portfolio page',
+    description: 'An overview app for the sole purpose of showcasing Ivan\'s experience and development career path.'
 }
 
 
 // default open graph data
 const og = {
-    title: 'Once UI for Next.js',
-    description: 'We let designers code and developers design.',
+    title: 'Ivan Volos\'s Portfolio page',
+    description: 'An overview app for the sole purpose of showcasing Ivan\'s experience and development career path.',
     type: 'website'
 }
 
@@ -32,16 +32,15 @@ const og = {
 const schema = {
     logo: '',
     type: 'Organization',
-    name: 'One UI',
-    description: 'Once UI is an open-source design system and component library for Next.js.',
-    email: 'lorant@once-ui.com'
+    name: 'Ivan Volos\'s Portfolio',
+    description: '',
+    email: 'volos.work@gmail.com'
 }
 
 // social links
 const social = {
-    twitter: 'https://www.twitter.com/_onceui',
-    linkedin: 'https://www.linkedin.com/company/once-ui/',
-    discord: 'https://discord.com/invite/5EyAQ4eNdS'
+    linkedin: 'https://www.linkedin.com/in/volos-ivan-work/',
+    github: 'https://github.com/Kurabombei',
 }
 
 export { baseURL, style, meta, og, schema, social };
